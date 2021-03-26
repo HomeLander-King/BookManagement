@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:text="BOOK APP"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/bookicon" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="view all book"
+        android:layout_below="@+id/btnAdd"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/btnadd"
+        />
+
+    <Button
+        android:id="@+id/btnManage"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="manage book"
+        android:layout_below="@+id/btnView"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/btnadd"
+        />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="add new book"
+        android:layout_below="@+id/img1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/btnadd"
+        />
+
+</RelativeLayout>
